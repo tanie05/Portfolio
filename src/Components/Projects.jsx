@@ -76,14 +76,14 @@ export default function Projects() {
         id:1,
         title:"BlogMuse",
         description: "",
-        link : "https://rainbow-churros-8925ee.netlify.app/",
+        link : "https://blogfrontend-yohe.onrender.com",
         img : BlogMuse,
     },
     {
         id:2,
         title: "Expense Tracker",
         description: "",
-        link : "https://resilient-selkie-0e621d.netlify.app/",
+        link : "https://fascinating-jalebi-705ff3.netlify.app/",
         img: ExpenseTracker,
     },
     {
