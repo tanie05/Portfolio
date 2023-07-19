@@ -77,7 +77,7 @@ export default function Header() {
             <Name>I am Tanvi!</Name>
         </IntroContainer>
         <Intro>I am a full-stack web developer specializing in the MERN stack. I thrive on crafting innovative and dynamic web solutions.</Intro>
-        <Button href="https://drive.google.com/file/d/10FrKctayDwvx_3185AphEtrVyVsMR1rQ/view?usp=sharing" target="_blank">
+        <Button href="https://drive.google.com/file/d/1erYl0gLMLRXEwAnCVivkye4qDVSMCV1o/view?usp=sharing" target="_blank">
         Resume
         </Button>
     </Container>
