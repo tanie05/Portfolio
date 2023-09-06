@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'styled-components'
+import styled, {css}from 'styled-components'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
@@ -8,10 +8,14 @@ const Container = styled.div`
     padding: 70px 50px;
     color: #fdfbdc;
     text-align: center;
+    
 `
 
 const SubContainer = styled.div`
     padding: 20px;
+    @media (max-width: 768px) {
+    padding: 5px;
+  }
 `
 const Heading = styled.h1`
     font-size: 48px;
@@ -41,7 +45,7 @@ export default function Footer() {
   return (
     <Container>
         <Heading>Contacts
-        <hr style={{width: "400px",}}/>
+        <hr style={{width: "100%"}}/>
         </Heading>
         <SubContainer>
             <SubHeading>EMAIL</SubHeading>

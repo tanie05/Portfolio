@@ -3,8 +3,9 @@ import styled from 'styled-components'
 import BlogMuse from '../data/BlogMuse.png'
 import ExpenseTracker from '../data/ExpenseTracker.png'
 import todo from '../data/Todolist.png'
+import linkedin from '../data/linkedin.png'
 const Container = styled.div`
-    
+
     background-color: #fdfbfc;
     
 `
@@ -18,6 +19,11 @@ const Heading = styled.h1`
     font-family: 'radley';
     font-weight: 100;
     color: #f081a9;
+
+    @media (max-width: 768px) {
+    font-size: 40px; 
+    
+  }
     
 `
 const Description = styled.p`
@@ -30,8 +36,14 @@ const Description = styled.p`
 const ProjectContainer = styled.div`
     display: flex;
     justify-content: center;
-    padding: 30px 50px;
     margin-bottom: 60px;
+
+    @media (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin: 10px 0px;
+  }
     
 
 `
@@ -45,8 +57,12 @@ const Project = styled.div`
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     background-color: #e9d2da;
     &:hover {
-    
     background-color: #f081a9;
+  }
+  @media (max-width: 768px) {
+    margin: 5px;
+    width: 100%;
+
   }
 
 `
@@ -88,10 +104,10 @@ export default function Projects() {
     },
     {
         id:3,
-        title: "To Do List Using ReactJS",
+        title: "LinkedIn Clone",
         description: "",
-        link : "https://tanie05.github.io/todolist/",
-        img: todo,
+        link : "https://clientlinkedin.onrender.com",
+        img: linkedin,
     },
     
 
